@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+header{
+  font-size:30px;
+  color:white;
+  background:#FF7F99;
+  height:100px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+  span{
+    color:#FFCA41;
+  }
+  .información{
+    font-size: 30px;
+    color: white;
+    display: flex;
+    align-items:baseline;
+    justify-content: flex-end;
+  }
+  
+  .container {
+display: flex;
+align-items: right;
+justify-content: right;
+height: 600px;
+width: 600px;
+flex-direction: column;
+margin: 50px;
+float: right
+  }
+  .consultor {
+    color:#FF7F99;
+    font-size:75px;
+    text-align:left;
+    margin: 0px;
+    font-family: 'Jost', sans-serif;
+    line-height: 100%;
+  }
+.especialistas{
+  text-align:left;
+  font-size:20px;
+  margin: 0px;
+  font-weight: bold;
+  font-family: 'Jost', sans-serif;
+ }
+.bt1{
+  padding:15px;
+  width: 150px;
+  background-color:#FFCA41;
+  border:none;
+  color:white;
+  border-radius: 36px;
+}
